@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ynet-web 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ynet-web
+  template:
+    metadata:
+      labels:
+        app: ynet-web
+    spec:
+      containers:
+      - name: ynet-web
+        image: medhasm/ynet-web:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: TITLE
+          value: "Welcome to Ingress Two"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ynet-web
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+  selector:
+    app: ynet-web
