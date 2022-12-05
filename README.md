@@ -40,14 +40,18 @@ Run (Open CLI)
 ```
 # Result 
 Each App have her own path running on the local host
-for ynet app
-localhost/ynet
-![ynet](https://user-images.githubusercontent.com/57920502/205525285-a5e96b04-3c32-4130-b805-49029c17f4f6.jpeg)
 for bitcoin app 
-localhost/bitcoin
+
+http://localhost/bitcoin
 ![bitcoin](https://user-images.githubusercontent.com/57920502/205525283-c5c176a3-533e-40a8-8353-155b7da1ed72.jpeg)
 
-# Dockerimage on DockerHub
+for ynet app
+
+http://localhost/ynet
+![ynet](https://user-images.githubusercontent.com/57920502/205525285-a5e96b04-3c32-4130-b805-49029c17f4f6.jpeg)
+
+
+# Dockerimage/containers on DockerHub
 ![dockerhub](https://user-images.githubusercontent.com/57920502/205525297-f8289dd5-99a0-4db0-8aba-0df25c8195e5.png)
 
 
