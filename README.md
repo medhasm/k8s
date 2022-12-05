@@ -1,10 +1,13 @@
 # k8s
 # Task in kubernetes
 
-1.Dockarize our last two assignment bitcoint  and ynet applications
-2.Create Kubernetes manifests (Deployment and service)
-3.Enable Ingress Controller on my cluster
-4.Create an ingress that directs the traffic to the correct service
+* Dockarize our last two assignment bitcoint  and ynet applications
+
+*  Create Kubernetes manifests (Deployment and service)
+
+*  Enable Ingress Controller on my cluster
+
+*  Create an ingress that directs the traffic to the correct service
 
 ## Run Locally
 
