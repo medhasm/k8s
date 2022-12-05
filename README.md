@@ -33,9 +33,15 @@ Run (Open CLI)
   ```bash
  3. minikube addons enable ingress
 ```
+
+
   ```bash
   4.minikube tunnel
 ```
+### Result 
+Each App have her own path running on the local host
+for ynet app
+localhost/ynet
 
 
   
